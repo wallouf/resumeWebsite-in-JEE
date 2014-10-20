@@ -14,6 +14,6 @@ public class Resume {
 
     @RequestMapping( method = RequestMethod.GET )
     public String afficherBonjour( final ModelMap pModel ) {
-        return "portfolio_display_mobile";
+        return "portfolio_resume";
     }
 }
