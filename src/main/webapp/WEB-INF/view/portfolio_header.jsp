@@ -1,3 +1,8 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" isELIgnored="false"
+    pageEncoding="UTF-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <style type="text/css">
   body {
     padding-top: 70px;
@@ -17,9 +22,9 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="<?php if(strcasecmp($_SERVER['REQUEST_URI'],'/') == 0) echo "active"; ?>"><a href="/">My Resume</a></li>
-            <li class="<?php if(strcasecmp($_SERVER['REQUEST_URI'],'/projects') == 0) echo "active"; ?>"><a href="/projects">Projects</a></li>
-            <li><a href="https://github.com/wallouf">Fork me on github</a></li>
+            <li class=""><a href="/">My Resume</a></li>
+            <li class=""><a href="/projects">Projects</a></li>
+            <li><a href="https://github.com/wallouf">Fork me on Github</a></li>
           </ul>
         </div>
       </div>
