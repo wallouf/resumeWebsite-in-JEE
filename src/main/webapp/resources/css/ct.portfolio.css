@@ -1,0 +1,96 @@
+
+.img-responsive
+{
+	
+}
+.portfolio-content-left-fixed
+{
+	position:fixed;
+	top:50px;
+	height:100%;
+	width:50px;
+	background-color: #222;
+}
+.portfolio-content-left-fixed li
+{
+	font-size: 18px;
+	padding-left:0px;
+}
+.navbar,
+{
+	font-size: 18px!important;
+}.label-big-font
+{
+	font-size: 14px!important;
+	line-height: 30px!important;
+}
+.well, .well *
+{
+	/*background-color: whiteSmoke!important;*/
+}
+.well ul
+{
+	font-size: 16px!important;
+}
+.portfolio-navbar-vertical li
+{
+	/*margin-top: 20px!important;*/
+	/*font-size: 20px;*/
+}
+.portfolio-navbar-vertical li:hover, .portfolio-navbar-vertical li:hover a
+{
+	background-color: #333!important;
+}
+.portfolio-navbar-vertical li.active, .portfolio-navbar-vertical li.active a
+{
+	background-color: #333!important;
+}
+.portfolio-navbar-vertical
+{
+}
+.portfolio-content-right
+{
+	margin-left:50px;
+	/*padding-top: 80px!important;*/
+}
+#ct-portfolio-wrap-1 .glyphicon
+{
+	font-size: 32px;
+	line-height:32px;
+}
+#ct-portfolio-wrap-2 div, #ct-portfolio-wrap-3 div, #ct-portfolio-wrap-4 div, #ct-portfolio-wrap-5 div, #ct-portfolio-wrap-6 div
+{
+	vertical-align: top!important;
+}
+ #ct-portfolio-wrap-1 div
+{
+	background-color: inherit;
+}
+/*#ct-portfolio-wrap-2
+{
+	background-color: #13EF00;
+}
+#ct-portfolio-wrap-1, #ct-portfolio-wrap-1 *
+{
+	background-color: #00BFF3;
+}
+#ct-portfolio-wrap-3
+{
+	background-color: #00BFF3;
+}
+#ct-portfolio-wrap-4
+{
+	background-color: #13EF00;
+}
+#ct-portfolio-wrap-5
+{
+	background-color: #00BFF3;
+}
+#ct-portfolio-wrap-6
+{
+	background-color: #13EF00;
+}
+#ct-portfolio-wrap-7
+{
+	background-color: #00BFF3;
+}*/
