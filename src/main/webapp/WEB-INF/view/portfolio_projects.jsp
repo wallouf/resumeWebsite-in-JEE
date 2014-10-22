@@ -7,12 +7,13 @@
 <link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet">
 <link href="<c:url value="/resources/css/jquery-ui.min.css" />" rel="stylesheet">
 <link href="<c:url value="/resources/css/jquery-ui.theme.min.css" />" rel="stylesheet">
-<link href="<c:url value="/resources/css/ct.portfolio.css" />" rel="stylesheet">
+<link href="<c:url value="/resources/css/wallouf.generic.css" />" rel="stylesheet">
 <script src="<c:url value="/resources/js/jquery.js" />"></script>
 <script src="<c:url value="/resources/js/jquery-ui.min.js" />"></script>
 <script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
 <script src="<c:url value="/resources/js/chart.min.js" />"></script>
 <script src="<c:url value="/resources/js/wallouf.resume.js" />"></script>
+<link rel="shortcut icon" href="<c:url value="/resources/favicon.ico" />">
 <fmt:setLocale value="${language}" />
 <fmt:setBundle basename="com.example.i18n.text" />
 <!DOCTYPE html>
@@ -24,7 +25,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>My Resume</title>
+    <title>My Projects</title>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>

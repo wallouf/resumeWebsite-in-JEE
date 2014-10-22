@@ -1,8 +1,3 @@
-
-.img-responsive
-{
-	
-}
 .portfolio-content-left-fixed
 {
 	position:fixed;
@@ -16,10 +11,11 @@
 	font-size: 18px;
 	padding-left:0px;
 }
-.navbar,
+.navbar
 {
 	font-size: 18px!important;
-}.label-big-font
+}
+.label-big-font
 {
 	font-size: 14px!important;
 	line-height: 30px!important;

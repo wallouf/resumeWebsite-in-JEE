@@ -18,12 +18,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/" style="color:#31708F"><b>Christian Tassin</b></a>
+          <a class="navbar-brand" href="<c:url value="/" />" style="color:#31708F"><b>Christian Tassin</b></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class=""><a href="/">My Resume</a></li>
-            <li class=""><a href="/projects">Projects</a></li>
+            <li class=""><a href="<c:url value="/" />">My Resume</a></li>
+            <li class=""><a href="<c:url value="/projects" />">Projects</a></li>
             <li><a href="https://github.com/wallouf">Fork me on Github</a></li>
           </ul>
         </div>
