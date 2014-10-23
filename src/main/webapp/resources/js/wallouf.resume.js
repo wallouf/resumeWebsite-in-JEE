@@ -25,24 +25,39 @@ var dataPie_projectSkills = [
     }
 ];
 
-var dataPie_allSkills = [
+var dataPie_javaSkills = [
     {
         value: 60,
         color:"#F7464A",
         highlight: "#FF5A5E",
-        label: "WEB"
+        label: "Java SE"
     },
     {
         value: 40,
         color: "#46BFBD",
         highlight: "#5AD3D1",
-        label: "JAVA/C++"
+        label: "Java EE"
+    }
+];
+
+var dataPie_allSkills = [
+    {
+        value: 40,
+        color:"#F7464A",
+        highlight: "#FF5A5E",
+        label: "Front-end"
     },
     {
-        value: 5,
+        value: 40,
+        color: "#46BFBD",
+        highlight: "#5AD3D1",
+        label: "Back-end"
+    },
+    {
+        value: 20,
         color: "#FDB45C",
         highlight: "#FFC870",
-        label: "C"
+        label: "Database"
     }
 ];
 var dataPie_webSkills = [
@@ -71,23 +86,35 @@ var dataPie_webSkills = [
         label: "JS"
     }
 ];
-var dataPie_objectSkills = [
+var dataPie_frameworkSkills = [
     {
-        value: 90,
+        value: 40,
         color:"#F7464A",
         highlight: "#FF5A5E",
-        label: "JAVA"
+        label: "CakePHP"
     },
     {
-        value: 10,
+        value: 20,
+        color: "#A3BE8C",
+        highlight: "#ADC896",
+        label: "Spring/Hibernate"
+    },
+    {
+        value: 25,
         color: "#46BFBD",
         highlight: "#5AD3D1",
-        label: "C++"
+        label: "JQuery"
+    },
+    {
+        value: 15,
+        color: "#FDB45C",
+        highlight: "#FFC870",
+        label: "Swing"
     }
 ];
 
 var dataChart_otherSkills = {
-    labels: ["CakePHP", "Symfony2", "Mercurial", "SVN", "Github"],
+    labels: [ "Mercurial", "SVN", "Github"],
     datasets: [
         {
             label: "Other skills",
@@ -95,7 +122,7 @@ var dataChart_otherSkills = {
             strokeColor: "rgba(50,50,50,0.8)",
             highlightFill: "rgba(0,191,243,0.9)",
             highlightStroke: "rgba(0,0,0,1)",
-            data: [70, 15, 60, 25, 20]
+            data: [ 60, 25, 45]
         }
     ]
 };
@@ -311,12 +338,14 @@ function init_portfolioForMobile(){
 	//CHART
 	var ctx_allSkills = $("#portfolio-pg6-chart-1").get(0).getContext("2d");
 	var ctx_webSkills = $("#portfolio-pg6-chart-2").get(0).getContext("2d");
-	var ctx_objectSkills = $("#portfolio-pg6-chart-3").get(0).getContext("2d");
-	var ctx_otherSkills = $("#portfolio-pg6-chart-4").get(0).getContext("2d");
+	var ctx_javaSkills = $("#portfolio-pg6-chart-3").get(0).getContext("2d");
+	var ctx_objectSkills = $("#portfolio-pg6-chart-4").get(0).getContext("2d");
 	var ctx_projectSkills = $("#portfolio-pg6-chart-5").get(0).getContext("2d");
+	var ctx_otherSkills = $("#portfolio-pg6-chart-6").get(0).getContext("2d");
 	octx_allSkillsPie = new Chart(ctx_allSkills).Pie(dataPie_allSkills,{animation: false,responsive: true});
 	octx_webSkillsPie = new Chart(ctx_webSkills).Doughnut(dataPie_webSkills,{animation: false,responsive: true});
-	octx_objectSkillsPie = new Chart(ctx_objectSkills).Doughnut(dataPie_allSkills,{animation: false,responsive: true});
+	octx_objectSkillsPie = new Chart(ctx_objectSkills).Doughnut(dataPie_frameworkSkills,{animation: false,responsive: true});
+	octx_javaSkillsPie = new Chart(ctx_javaSkills).Doughnut(dataPie_javaSkills,{animation: false,responsive: true});
 	octx_otherSkillsBar = new Chart(ctx_otherSkills).Bar(dataChart_otherSkills,{animation: false,responsive: true});
 	octx_projectSkillsPie = new Chart(ctx_projectSkills).Doughnut(dataPie_projectSkills,{animation: false,responsive: true,scaleGridLineColor : "#000", scaleLineColor: "rgba(0,0,0,1)",scaleFontColor: "#222",scaleLineColor: "rgb(0,0,0)",angleLineColor : "rgb(0,0,0)",scaleFontColor: "#000"});
     
