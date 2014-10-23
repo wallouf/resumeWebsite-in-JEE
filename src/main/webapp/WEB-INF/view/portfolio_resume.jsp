@@ -258,21 +258,21 @@
 			</div>
 			<div class="row text-center">
 				<div class="col-sm-6">
-					<h4 class="text-info">Developpement skills</h4>
+					<h4 class="text-primary">Developpement skills</h4>
 					<canvas id="portfolio-pg6-chart-1" style="max-width:100%"></canvas>
 				</div>
 				<div class="col-sm-6">
-					<h4 class="text-info">Web with PHP skills</h4>
+					<h4 class="text-primary">Web with PHP skills</h4>
 					<canvas id="portfolio-pg6-chart-2" style="max-width:100%"></canvas>
 				</div>
 			</div>
 			<div class="row text-center">
 				<div class="col-sm-6">
-					<h4 class="text-info">Java skills</h4>
+					<h4 class="text-primary">Java skills</h4>
 					<canvas id="portfolio-pg6-chart-3" style="max-width:100%"></canvas>
 				</div>
 				<div class="col-sm-6">
-					<h4 class="text-info">Framework skills</h4>
+					<h4 class="text-primary">Framework skills</h4>
 					<canvas id="portfolio-pg6-chart-4" style="max-width:100%"></canvas>
 				</div>
 			</div>
@@ -281,11 +281,11 @@
 			</div>
 			<div class="row text-center">
 				<div class="col-sm-6">
-					<h4 class="text-info">Project skills</h4>
+					<h4 class="text-primary">Project skills</h4>
 					<canvas id="portfolio-pg6-chart-5" style="max-width:100%"></canvas>
 				</div>
 				<div class="col-sm-6">
-					<h4 class="text-info">Files management skills</h4>
+					<h4 class="text-primary">Files management skills</h4>
 					<canvas id="portfolio-pg6-chart-6" style="max-width:100%"></canvas>
 				</div>
 			</div>
@@ -297,7 +297,7 @@
 					<div id="ct-portfolio-wrap-6-1">
 					<div class="well well-sm">
 						<span class="glyphicon glyphicon-flash text-danger" style="font-size:18px;"></span>
-						<h3 class="text-info">ENERGY</h3>
+						<h3 class="text-primary">ENERGY</h3>
 					</div>
 					</div>
 				</div>
@@ -305,7 +305,7 @@
 					<div id="ct-portfolio-wrap-6-1">
 					<div class="well well-sm">
 						<span class="glyphicon glyphicon-heart text-danger" style="font-size:18px;"></span>
-						<h3 class="text-info">MEDICAL</h3>
+						<h3 class="text-primary">MEDICAL</h3>
 					</div>
 					</div>
 				</div>
@@ -313,7 +313,7 @@
 					<div id="ct-portfolio-wrap-6-1">
 					<div class="well well-sm">
 						<span class="glyphicon glyphicon-wrench text-danger" style="font-size:18px;"></span>
-						<h3 class="text-info">ROBOTIC</h3>
+						<h3 class="text-primary">ROBOTIC</h3>
 					</div>
 					</div>
 				</div>
@@ -321,7 +321,7 @@
 					<div id="ct-portfolio-wrap-6-1">
 					<div class="well well-sm">
 						<span class="glyphicon glyphicon-plane text-danger" style="font-size:18px;"></span>
-						<h3 class="text-info">AERONAUTICS</h3>
+						<h3 class="text-primary">AERONAUTICS</h3>
 					</div>
 					</div>
 				</div>
@@ -329,7 +329,7 @@
 					<div id="ct-portfolio-wrap-6-1">
 					<div class="well well-sm">
 						<span class="glyphicon glyphicon-stats text-danger" style="font-size:18px;"></span>
-						<h3 class="text-info">MILITARY</h3>
+						<h3 class="text-primary">MILITARY</h3>
 					</div>
 					</div>
 				</div>
@@ -337,7 +337,7 @@
 					<div id="ct-portfolio-wrap-6-1">
 					<div class="well well-sm">
 						<span class="glyphicon glyphicon-tower text-danger" style="font-size:18px;"></span>
-						<h3 class="text-info">GAMES</h3>
+						<h3 class="text-primary">GAMES</h3>
 					</div>
 					</div>
 				</div>
