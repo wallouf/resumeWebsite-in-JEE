@@ -6,7 +6,6 @@
 <style type="text/css">
   body {
     padding-top: 70px;
-    background-color:#F6F6F6;
   }
 </style>
 <div class="navbar navbar-inverse navbar-fixed-top navbar-default" role="navigation">
@@ -18,12 +17,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<c:url value="/" />" style="color:#31708F"><b>Christian Tassin</b></a>
+          <a class="navbar-brand" href="<c:url value="/" />"><b class="text-muted">Christian Tassin</b></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class=""><a href="<c:url value="/" />">My Resume</a></li>
             <li class=""><a href="<c:url value="/projects" />">Projects</a></li>
+            <li class=""><a href="<c:url value="/doit" />"><span class="text-muted"><span class="glyphicon glyphicon-pushpin"></span> <b>Do It!</b> Web app</span></a></li>
             <li><a href="https://github.com/wallouf">Fork me on Github</a></li>
           </ul>
         </div>

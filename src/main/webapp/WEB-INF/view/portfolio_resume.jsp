@@ -4,7 +4,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 <c:set var="language" value="${not empty param.language ? param.language : not empty language ? language : pageContext.request.locale}" scope="session" />
-<link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet">
+<link href="<c:url value="/resources/css/bootstrap.orange_theme.min.css" />" rel="stylesheet">
 <link href="<c:url value="/resources/css/jquery-ui.min.css" />" rel="stylesheet">
 <link href="<c:url value="/resources/css/jquery-ui.theme.min.css" />" rel="stylesheet">
 <link href="<c:url value="/resources/css/wallouf.generic.css" />" rel="stylesheet">
@@ -40,54 +40,54 @@
 
 		<div id="content" class="container">
 			<div class="jumbotron">
-				<h1><span  class="text-info">My Resume</span></h1>
+				<h1><span class=text-primary>My Resume</span></h1>
 				<p>Welcome to my website.<br/>Here you will find my resume but you can also browse all my projects and visit my github repository !<br/><br/>Enjoy your trip !</p>
 			</div>
 			<div class="page-header">
-				<h1>Profil</h1>
+				<h1 class="text-info">Profil</h1>
 			</div>
 			<p>
-				<h4><span class="glyphicon glyphicon-user" style="color:#31708F"></span> M. Christian Tassin</h4>
-				<h4><span class="glyphicon glyphicon-globe" style="color:#31708F"></span> French - <abbr title="Born: 11/29/89">24 years old</abbr></h4>
+				<h4><span class="glyphicon glyphicon-user text-primary"></span> M. Christian Tassin</h4>
+				<h4><span class="glyphicon glyphicon-globe text-primary"></span> French - <abbr title="Born: 11/29/89">24 years old</abbr></h4>
 				<h4><span class="glyphicon glyphicon-heart-empty text-danger"></span> Travel, Personal Project, Music & Photo</h4>
 				<h4><span class="glyphicon glyphicon-pushpin text-danger"></span> New technologies, VR, Drones, 3D printing</h4>
 				<h4><span class="glyphicon glyphicon-flag text-danger"></span> Golf, Baseball, Fitness & Jogging</h4>
 			</p>
 			<div class="page-header">
-				<h1>Skills</h1>
+				<h1 class="text-info">Skills</h1>
 			</div>
 			<p>
-				<h4 class="media-heading text-info">Methods <span class="glyphicon glyphicon-star"></span></h4>
+				<h4 class="media-heading text-primary">Methods <span class="glyphicon glyphicon-star"></span></h4>
 				<ul class="list-nostyle">
 					<li><h5>Kanban, Agile, Scrum</h5></li>
 				</ul>
-				<h4 class="media-heading text-info">Front-end <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
+				<h4 class="media-heading text-primary">Front-end <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
 				<ul class="list-nostyle">
 					<li><h5>Bootstrap, HTML5, CSS3, Javascript, JQuery, JSP, JSTL, Swing</h5></li>
 				</ul>
-				<h4 class="media-heading text-info">Back-end <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
+				<h4 class="media-heading text-primary">Back-end <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
 				<ul class="list-nostyle">
 					<li><h5>Java SE, Java EE, PHP, Apache Http, Apache Tomcat</h5></li>
 				</ul>
-				<h4 class="media-heading text-info">Framework <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
+				<h4 class="media-heading text-primary">Framework <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
 				<ul class="list-nostyle">
 					<li><h5>CakePHP, Spring, Hibernate, JPA, EJB</h5></li>
 				</ul>
-				<h4 class="media-heading text-info">Database <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
+				<h4 class="media-heading text-primary">Database <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
 				<ul class="list-nostyle">
 					<li><h5>MySQL, MySQLWorkbench, JDBC</h5></li>
 				</ul>
-				<h4 class="media-heading text-info">Tools <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
+				<h4 class="media-heading text-primary">Tools <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
 				<ul class="list-nostyle">
 					<li><h5>Mercurial, SVN, Git, Jenkins</h5></li>
 				</ul>
-				<h4 class="media-heading text-info">OS <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
+				<h4 class="media-heading text-primary">OS <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
 				<ul class="list-nostyle">
 					<li><h5>Windows, Linux, OSX</h5></li>
 				</ul>
 			</p>
 			<div class="page-header">
-				<h1>Experiences</h1>
+				<h1 class="text-info">Experiences</h1>
 			</div>
 			<p>
 				<div class="media">
@@ -95,8 +95,8 @@
 				   		<img width="145px" class="media-object" src="<c:url value='/resources/img/portfolio-pg5-exp-1.png' />" alt="Airbus Helicopters">
 				  	</div>
 				  	<div class="media-body">
-					    <h4 class="media-heading text-info">Fullstack Web developper & designer<small class="pull-right text-success" data-placement="left" data-toggle="tooltip" title="" data-original-title="Sept. 2012 to Sept. 2014"><span class="glyphicon glyphicon-calendar"></span> 2012 - 2014</small></h4>
-					    <h5 class="media-heading text-grey">Web application <small class="pull-right text-success"><span class="glyphicon glyphicon-time"></span> 2 Years</small></h5>
+					    <h4 class="media-heading text-primary">Fullstack Web developper & designer<small class="pull-right text-success" data-placement="left" data-toggle="tooltip" title="" data-original-title="Sept. 2012 to Sept. 2014"><span class="glyphicon glyphicon-calendar"></span> 2012 - 2014</small></h4>
+					    <h5 class="media-heading text-danger">Web application <small class="pull-right text-success"><span class="glyphicon glyphicon-time"></span> 2 Years</small></h5>
 					    Implement a Web platform to manage resources and conformity of test facilities:<br/>
 					    <ul>
 							<li>Requirement gathering and definition</li>
@@ -125,7 +125,7 @@
 						<span class="label label-success">Costs</span>
 						<span class="label label-success">Planning</span>
 						<span class="label label-success">Design</span>
-					    <h5><span class="text-danger"><span class="glyphicon glyphicon-map-marker"></span> Airbus Helicopters</span><small> Marseille provence airport - FRANCE</small></h5>
+					    <h5><span class="text-info"><span class="glyphicon glyphicon-map-marker"></span> Airbus Helicopters</span><small> Marseille provence airport - FRANCE</small></h5>
 				  	</div>
 				</div>
 			</p>
@@ -135,8 +135,8 @@
 				   		<img width="145px" class="media-object" src="<c:url value='/resources/img/portfolio-pg5-exp-1.png' />" alt="Airbus Helicopters">
 				  	</div>
 				  	<div class="media-body">
-					    <h4 class="media-heading text-info">Fullstack Java developper & designer<small class="pull-right text-success" data-placement="left" data-toggle="tooltip" title="" data-original-title="Sept. 2010 to Sept. 2012"><span class="glyphicon glyphicon-calendar"></span> 2010 - 2012</small></h4>
-					    <h5 class="media-heading text-grey">Java applications<small class="pull-right text-success"><span class="glyphicon glyphicon-time"></span> 2 Years</small></h5>
+					    <h4 class="media-heading text-primary">Fullstack Java developper & designer<small class="pull-right text-success" data-placement="left" data-toggle="tooltip" title="" data-original-title="Sept. 2010 to Sept. 2012"><span class="glyphicon glyphicon-calendar"></span> 2010 - 2012</small></h4>
+					    <h5 class="media-heading text-danger">Java applications<small class="pull-right text-success"><span class="glyphicon glyphicon-time"></span> 2 Years</small></h5>
 					    Develop software to spy data in real-time on frames and define state compared to a reference:<br/>
 					    <ul>
 							<li>Analyze technical feasibility from specifications</li>
@@ -164,12 +164,12 @@
 						<span class="label label-success">Agile</span>
 						<span class="label label-success">Planning</span>
 						<span class="label label-success">Design</span>
-					    <h5><span class="text-danger"><span class="glyphicon glyphicon-map-marker"></span> Airbus Helicopters</span><small> Marseille provence airport - FRANCE</small></h5>
+					    <h5><span class="text-info"><span class="glyphicon glyphicon-map-marker"></span> Airbus Helicopters</span><small> Marseille provence airport - FRANCE</small></h5>
 				  	</div>
 				</div>
 			</p>
 			<div class="page-header">
-				<h1>Intership</h1>
+				<h1 class="text-info">Intership</h1>
 			</div>
 			<p>
 				<div class="media">
@@ -177,8 +177,8 @@
 				   		<img width="145px" class="media-object" src="<c:url value='/resources/img/portfolio-pg3-exp-2.png' />" alt="Thrid school">
 				  	</div>
 				  	<div class="media-body">
-				    <h4 class="media-heading text-info">Developper<small class="pull-right text-success" data-placement="left" data-toggle="tooltip" title="" data-original-title="Apr. to Jun. 2010"><span class="glyphicon glyphicon-calendar"></span> 2010</small></h4>
-				    <h5 class="media-heading text-grey">Amplifier control<small class="pull-right text-success"><span class="glyphicon glyphicon-time"></span> 3 Months</small></h5>
+				    <h4 class="media-heading text-primary">Developper<small class="pull-right text-success" data-placement="left" data-toggle="tooltip" title="" data-original-title="Apr. to Jun. 2010"><span class="glyphicon glyphicon-calendar"></span> 2010</small></h4>
+				    <h5 class="media-heading text-danger">Amplifier control<small class="pull-right text-success"><span class="glyphicon glyphicon-time"></span> 3 Months</small></h5>
 				    Upgrade and migrate actual command of amplificators:<br/>
 				    <ul>
 						<li>Improve IHM</li>
@@ -190,7 +190,7 @@
 					<span class="label label-success">REPORT</span>
 					<span class="label label-success">TRAINING</span>
 					<span class="label label-success">SPECIFICATION</span>
-				    <h5><span class="text-danger"><span class="glyphicon glyphicon-map-marker"></span> Dassault Aviation</span><small> BA125 - Istres - FRANCE</small></h5>
+				    <h5><span class="text-info"><span class="glyphicon glyphicon-map-marker"></span> Dassault Aviation</span><small> BA125 - Istres - FRANCE</small></h5>
 				  	</div>
 				</div>
 			</p>
@@ -200,8 +200,8 @@
 				   		<img width="145px" class="media-object" src="<c:url value='/resources/img/portfolio-pg3-exp-1.png' />" alt="Second school">
 				  	</div>
 				  	<div class="media-body">
-				    <h4 class="media-heading text-info">School project<small class="pull-right text-success" data-placement="left" data-toggle="tooltip" title="" data-original-title="Feb. 2010"><span class="glyphicon glyphicon-calendar"></span> 2010</small></h4>
-				    <h5 class="media-heading text-grey">Engine servitude<small class="pull-right text-success"><span class="glyphicon glyphicon-time"></span> 1 Month</small></h5>
+				    <h4 class="media-heading text-primary">School project<small class="pull-right text-success" data-placement="left" data-toggle="tooltip" title="" data-original-title="Feb. 2010"><span class="glyphicon glyphicon-calendar"></span> 2010</small></h4>
+				    <h5 class="media-heading text-danger">Engine servitude<small class="pull-right text-success"><span class="glyphicon glyphicon-time"></span> 1 Month</small></h5>
 				    Work in team to realize servitude of a drone with 4 engines:<br/>
 				    <ul>
 						<li>Consider engine specifications</li>
@@ -209,12 +209,12 @@
 				    </ul>
 					<span class="label label-primary">MATLAB</span>
 					<span class="label label-success">TEAMWORK</span>
-				    <h5><span class="text-danger"><span class="glyphicon glyphicon-map-marker"></span> French Air Force</span><small> BA701 - Salon de Provence - FRANCE</small></h5>
+				    <h5><span class="text-info"><span class="glyphicon glyphicon-map-marker"></span> French Air Force</span><small> BA701 - Salon de Provence - FRANCE</small></h5>
 				  	</div>
 				</div>
 			</p>
 			<div class="page-header">
-				<h1>Education</h1>
+				<h1 class="text-info">Education</h1>
 			</div>
 			<p>
 				<div class="media">
@@ -222,9 +222,9 @@
 				   		<img width="145px" class="media-object" src="<c:url value='/resources/img/portfolio-pg2-educ-1.png' />" alt="First school">
 				  	</div>
 				  	<div class="media-body">
-				    <h4 class="media-heading text-info">High School Degree<small class="pull-right text-success" data-placement="left" data-toggle="tooltip" title="" data-original-title="Sept. 2004 to Sept. 2008"><span class="glyphicon glyphicon-calendar"></span> 2008</small></h4>
+				    <h4 class="media-heading text-primary">High School Degree<small class="pull-right text-success" data-placement="left" data-toggle="tooltip" title="" data-original-title="Sept. 2004 to Sept. 2008"><span class="glyphicon glyphicon-calendar"></span> 2008</small></h4>
 				    Scientific with physical option<br/>
-				    <h5><span class="text-danger"><span class="glyphicon glyphicon-map-marker"></span> Val De Durance High school</span><small> Pertuis - FRANCE</small></h5>
+				    <h5><span class="text-info"><span class="glyphicon glyphicon-map-marker"></span> Val De Durance High school</span><small> Pertuis - FRANCE</small></h5>
 				  	</div>
 				</div>
 			</p>
@@ -234,9 +234,9 @@
 				   		<img width="145px" class="media-object" src="<c:url value='/resources/img/portfolio-pg2-educ-2.png' />" alt="First school">
 				  	</div>
 				  	<div class="media-body">
-				    <h4 class="media-heading text-info">University Degree in Technology<small class="pull-right text-success" data-placement="left" data-toggle="tooltip" title="" data-original-title="Sept. 2008 to Sept. 2010"><span class="glyphicon glyphicon-calendar"></span> 2010</small></h4>
+				    <h4 class="media-heading text-primary">University Degree in Technology<small class="pull-right text-success" data-placement="left" data-toggle="tooltip" title="" data-original-title="Sept. 2008 to Sept. 2010"><span class="glyphicon glyphicon-calendar"></span> 2010</small></h4>
 				    Electrical Engineering and Industrial Computing<br/>
-				    <h5><span class="text-danger"><span class="glyphicon glyphicon-map-marker"></span> University Institute Of Technology</span><small> Salon de Provence - FRANCE</small></h5>
+				    <h5><span class="text-info"><span class="glyphicon glyphicon-map-marker"></span> University Institute Of Technology</span><small> Salon de Provence - FRANCE</small></h5>
 				  	</div>
 				</div>
 			</p>
@@ -246,15 +246,15 @@
 				   		<img width="145px" class="media-object" src="<c:url value='/resources/img/portfolio-pg2-educ-3.png' />" alt="First school">
 				  	</div>
 				  	<div class="media-body">
-				    <h4 class="media-heading text-info">Engineering Degree<small class="pull-right text-success" data-placement="left" data-toggle="tooltip" title="" data-original-title="Sept. 2010 to Sept. 2013"><span class="glyphicon glyphicon-calendar"></span> 2013</small></h4>
-				    <h5 class="text-grey">Software engineering option at <span data-toggle="tooltip" title="" data-original-title="Institut supérieur de l'électronique et du numérique">ISEN</span></h5>
+				    <h4 class="media-heading text-primary">Engineering Degree<small class="pull-right text-success" data-placement="left" data-toggle="tooltip" title="" data-original-title="Sept. 2010 to Sept. 2013"><span class="glyphicon glyphicon-calendar"></span> 2013</small></h4>
+				    <h5 class="text-danger">Software engineering option at <span data-toggle="tooltip" title="" data-original-title="Institut supérieur de l'électronique et du numérique">ISEN</span></h5>
 				    Electrical Engineering and Industrial Computing<br/>
-				    <h5><span class="text-danger"><span class="glyphicon glyphicon-map-marker"></span> Ecole National Supérieure des Mines de Saint-Etienne</span><small> Gardanne - FRANCE</small></h5>
+				    <h5><span class="text-info"><span class="glyphicon glyphicon-map-marker"></span> Ecole National Supérieure des Mines de Saint-Etienne</span><small> Gardanne - FRANCE</small></h5>
 				  	</div>
 				</div>
 			</p>
 			<div class="page-header">
-				<h1>Technical pies</h1>
+				<h1 class="text-info">Technical pies</h1>
 			</div>
 			<div class="row text-center">
 				<div class="col-sm-6">
@@ -277,7 +277,7 @@
 				</div>
 			</div>
 			<div class="page-header">
-				<h1>Project management skills</h1>
+				<h1 class="text-info">Project management skills</h1>
 			</div>
 			<div class="row text-center">
 				<div class="col-sm-6">
@@ -290,7 +290,7 @@
 				</div>
 			</div>
 			<div class="page-header">
-				<h1>For the future, interested in</h1>
+				<h1 class="text-info">For the future, interested in</h1>
 			</div>
 			<div class="row text-center">
 				<div class="col-sm-6">
@@ -343,10 +343,10 @@
 				</div>
 			</div>
 			<div class="page-header">
-				<h1>Contact</h1>
+				<h1 class="text-info">Contact</h1>
 			</div>
 			<p>
-				<h4>You can contact me by:</h4>
+				<h4 class="text-primary">You can contact me by:</h4>
 				<div class="row text-center">
 					<a href="mailto:ct13860@gmail.com">
 						<div class="col-sm-12">
@@ -391,7 +391,7 @@
 				</div>
 			</p>
 			<p>
-				<h4>You can download my resume in PDF:</h4>
+				<h4 class="text-primary">You can download my resume in PDF:</h4>
 				<div class="row text-center">
 					<a href="files/CV_Tassin_Christian_2014_09_EN.pdf">
 						<div class="col-sm-6">
@@ -419,7 +419,7 @@
 	<div class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12 text-left text-info"><b>Copyright © 2014 - Tassin Christian</b><a class="pull-right" href="#"><span class="glyphicon glyphicon-arrow-up"></span> Top</a></div>
+				<div class="col-sm-12 text-left text-primary"><b>Copyright © 2014 - Tassin Christian</b><a class="pull-right" href="#"><span class="glyphicon glyphicon-arrow-up"></span> Top</a></div>
 			</div>
 	  	</div>
 	</div>

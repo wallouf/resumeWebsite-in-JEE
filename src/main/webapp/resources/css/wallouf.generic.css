@@ -3,6 +3,10 @@
 {
 	color:grey;
 }
+.text-blackblue
+{
+	color:rgb(43, 62, 80);
+}
 .list-nostyle
 {
 	list-style: none;
