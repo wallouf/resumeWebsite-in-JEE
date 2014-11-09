@@ -17,7 +17,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<c:url value="/" />"><b class="text-muted">Christian Tassin</b></a>
+          <a class="navbar-brand" href="<c:url value="/" />"><b>Christian Tassin</b></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
