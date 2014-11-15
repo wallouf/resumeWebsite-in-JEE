@@ -393,7 +393,7 @@
 			<p>
 				<h4 class="text-primary">You can download my resume in PDF:</h4>
 				<div class="row text-center">
-					<a href="files/CV_Tassin_Christian_2014_09_EN.pdf">
+					<a href="<c:url value='/resources/files/CV_Tassin_Christian_2014_11_EN.pdf' />">
 						<div class="col-sm-6">
 							<div class="well well-sm">
 								<img src="<c:url value='/resources/img/portfolio-pg7-dwn-1.png' />">
@@ -401,7 +401,7 @@
 							</div>
 						</div>
 					</a>
-					<a href="files/CV_Tassin_Christian_2014_09_FR.pdf">
+					<a href="<c:url value='/resources/files/CV_Tassin_Christian_2014_11_FR.pdf' />">
 						<div class="col-sm-6">
 							<div class="well well-sm">
 								<img src="<c:url value='/resources/img/portfolio-pg7-dwn-1.png' />">

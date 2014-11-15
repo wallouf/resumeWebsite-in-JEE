@@ -23,7 +23,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li class=""><a href="<c:url value="/" />">My Resume</a></li>
             <li class=""><a href="<c:url value="/projects" />">Projects</a></li>
-            <li class=""><a href="/doit"><span class="text-muted"><span class="glyphicon glyphicon-pushpin"></span> <b>Do It!</b> Web app</span></a></li>
+            <li class=""><a href="/doit"><span class="badge text-primary"><span class="glyphicon glyphicon-pushpin"></span> <b>Do It!</b> Web app</span></a></li>
             <li><a href="https://github.com/wallouf">Fork me on Github</a></li>
           </ul>
         </div>
